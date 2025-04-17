@@ -66,7 +66,7 @@ fprintf('Processing video using frames %s and k value %.1f...\n', Frame_Range_St
 %  1. LOAD VIDEO TENSOR DATA
 %  ------------------------------------------------------------------------
 if ~exist(Video_Tensor_Path, 'file')
-    error('Video tensor file not found: %s', Video_Tensor_Path);
+    error('Video tensor file not found: %s', Video_Tensor_Path); 
 end
 
 Data_Struct   = load(Video_Tensor_Path);
@@ -98,7 +98,7 @@ if ~exist(GT_File, 'file')
 end
 
 GT_Data = load(GT_File);
-if isfield(GT_Data, 'def_loc')
+if isfield(GT_Data, 'def_loc') %The matrix that we load has a variable called def_loc that contains the ground truth matrix
     Def_Loc = GT_Data.def_loc;
 else
     error('Variable "def_loc" not found in ground truth file.');
