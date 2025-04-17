@@ -51,8 +51,8 @@ global C;               % Declare global constant for detection assessment
 C = 20;
 
 % File paths for subject data
-Video_Tensor_Path = 'Path to the video tensor file';
-GT_File           = 'Path to the ground truth def_loc file';
+Video_Tensor_Path = 'Path to the video tensor file'; %video tensor is a tensor file with dimensions a x b x c. a is the number of pixel in x direction, b is the number of pixel in y dimension, c is the number of frame.
+GT_File           = 'Path to the ground truth ground truth file'; %the ground truth file is a matrix. first column is the location of the x dimension, second column is the location of the y dimension, third column is the frame number
 
 % Subject-specific parameters
 Frame_Range      = [501, 700];
