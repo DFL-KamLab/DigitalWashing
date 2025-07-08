@@ -40,6 +40,7 @@ Video_Tensor_Path = 'Path to the video tensor file';
 %   - Matrix with columns [x-coordinate, y-coordinate, frame index]
 GT_File = 'Path to the ground truth file';  
 ```
+Example videos can be found under "DigitalWashing\Example Video and Ground Truth"
 
 6) Once paths are correctly set, run the script in MATLAB:
 ```matlab
