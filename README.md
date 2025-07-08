@@ -14,3 +14,6 @@ In order to run the main script, follow these instructions:
 
 1) Select a directory to save this repository to. This can be done by creating a directory on your Desktop (for example: C:/MyPC/Desktop/GitRepo/).  
 Open Git Bash and type:
+```
+cd "C:/MyPC/Desktop/GitRepo/"
+```
