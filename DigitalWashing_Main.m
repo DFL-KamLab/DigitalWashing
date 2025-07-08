@@ -59,7 +59,7 @@ GT_File = 'Path to the ground truth file';
 
 
 % Subject-specific parameters
-Frame_Range      = [501, 700];                         % Range of frames to process
+Frame_Range      = [1, 50];                         % Range of frames to process
 Frame_Range_Str  = sprintf('%d-%d', Frame_Range(1), Frame_Range(2)); 
 K_Val            = 1.7;                                % Decision parameter
 
@@ -208,8 +208,8 @@ F2_Val  = F_Beta_Score(Precision_Val, Recall_Val, 2);
 %% ------------------------------------------------------------------------
 %  5. DISPLAY RESULTS
 %  ------------------------------------------------------------------------
-fprintf('Results for Subject %d (frames %s) with k = %.1f:\n', ...
-    Subject_ID, Frame_Range_Str, K_Val);  % Print summary header
+fprintf('Results with k = %.1f:\n', ...
+    Frame_Range_Str, K_Val);  % Print summary header
 fprintf('Precision: %.4f | Recall: %.4f | F1: %.4f | F0.5: %.4f | F2: %.4f\n', ...
     Precision_Val, Recall_Val, F1_Val, F05_Val, F2_Val);  % Print metrics
 
