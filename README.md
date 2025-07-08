@@ -17,3 +17,15 @@ Open Git Bash and type:
 ```
 cd "C:/MyPC/Desktop/GitRepo/"
 ```
+2) Clone this repository into the directory:
+```
+git clone "https://github.com/DFL-KamLab/DigitalWashing.git"
+```
+
+3) Open MATLAB and navigate to the `DigitalWashing` directory.
+
+4) Open the main script:
+
+```
+DigitalWashing_Main.m
+```
