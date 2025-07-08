@@ -4,7 +4,7 @@ This repository contains the MATLAB implementation of **Digital Washing**, a met
 
 This work was presented at the following conference:
 > **“DIGITAL WASHING” OF SEMEN TIME-LAPSE IMAGES**  
-> *Ludvik Alkhoury, Atilla Sivri, JiWon Choi, Justin Bopp, Albert Anouna, Andreas W. Henkel, Matthew VerMilyea, Moshe KamA,, *IEEE MLSP*, *2025*
+> *Ludvik Alkhoury, Atilla Sivri, JiWon Choi, Justin Bopp, Albert Anouna, Andreas W. Henkel, Matthew VerMilyea, Moshe Kam*, *IEEE MLSP*, *2025*
 
 ---
 
