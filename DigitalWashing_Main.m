@@ -51,12 +51,11 @@ C = 20;                 % Set the spatial tolerance (in pixels) for matching det
 
 % Path to the .mat file containing the video tensor:
 %   - Dimensions: [width (pixels) × height (pixels) × number of frames]
-Video_Tensor_Path = 'Path to the video tensor file';  
+Video_Tensor_Path = 'Example Video and Ground Truth\Digital_Washing_Example_Tensor.mat';
 
 % Path to the ground truth file:
 %   - Matrix with columns [x-coordinate, y-coordinate, frame index]
-GT_File = 'Path to the ground truth file';  
-
+GT_File           = 'Example Video and Ground Truth\Digital_Washing_Example_Ground_Truth.mat';
 
 % Subject-specific parameters
 Frame_Range      = [1, 50];                         % Range of frames to process

@@ -30,18 +30,12 @@ git clone "https://github.com/DFL-KamLab/DigitalWashing.git"
 DigitalWashing_Main.m
 ```
 
-5) Before running the script, update the file paths inside the script:
+5) Before running the script, change your path to your working directory in MATLAB:
 ```
-% Path to the .mat file containing the video tensor:
-%   - Dimensions: [width (pixels) × height (pixels) × number of frames]
-Video_Tensor_Path = 'Path to the video tensor file';  
-
-% Path to the ground truth file:
-%   - Matrix with columns [x-coordinate, y-coordinate, frame index]
-GT_File = 'Path to the ground truth file';  
+cd('C:/MyPC/Desktop/GitRepo/DigitalWashing')
 ```
-Example videos can be found under "DigitalWashing\Example Video and Ground Truth"
 
 6) Once paths are correctly set, run the script in MATLAB:
-```matlab
+```
 DigitalWashing_Main
+```
